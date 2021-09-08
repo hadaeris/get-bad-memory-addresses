@@ -1,5 +1,5 @@
 # get-bad-memory-addresses
-Takes a MemTest86 file and parses for all memory pages, generating a bcdedit command to blacklist them from the OS.
+Takes a MemTest86 file and parses for all bad memory pages, generating a bcdedit command to blacklist them from the OS.
 
 This super quick script is meant for Windows, and is by no means a permanent fix. I used this to extend the lifespan of one of my laptop's memory for about 6 months before it entirely gave up.
 
